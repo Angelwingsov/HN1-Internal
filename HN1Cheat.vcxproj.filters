@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{6d84a7e3-0974-4b53-b3c9-0a2bdf91fcf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{2bf4c498-5c4b-4ec9-8d75-4c0da75b8db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features">
+      <UniqueIdentifier>{c6c74823-3db0-4966-9b16-92cb1f20fa58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{8975d409-90b1-4bb2-b674-f81d1e434f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\config">
+      <UniqueIdentifier>{a98efb8b-e847-4929-a1b7-a3d8f8a02a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\imgui">
+      <UniqueIdentifier>{e7ef08a1-576e-41a6-8946-b33df1b35bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\kiero">
+      <UniqueIdentifier>{54f15a1a-4d9f-4f81-8b01-bf17684074ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps\minhook">
+      <UniqueIdentifier>{bd5996b1-aef4-4f2a-b040-ba76472b5358}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\hooks.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\ue_types.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\engine.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\noclip.cpp">
+      <Filter>src\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\stealth.cpp">
+      <Filter>src\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\camera.cpp">
+      <Filter>src\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\esp.cpp">
+      <Filter>src\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\features.cpp">
+      <Filter>src\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\menu.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\kiero\kiero.cpp">
+      <Filter>deps\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui.cpp">
+      <Filter>deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_draw.cpp">
+      <Filter>deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_tables.cpp">
+      <Filter>deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_widgets.cpp">
+      <Filter>deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_impl_win32.cpp">
+      <Filter>deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_impl_dx11.cpp">
+      <Filter>deps\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\minhook\hook.c">
+      <Filter>deps\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\minhook\buffer.c">
+      <Filter>deps\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\minhook\trampoline.c">
+      <Filter>deps\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\minhook\hde64.c">
+      <Filter>deps\minhook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\config\settings.hpp">
+      <Filter>src\config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\math.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\memory.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\hooks.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\offsets.hpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\ue_enums.hpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\ue_types.hpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\engine.hpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\noclip.hpp">
+      <Filter>src\features</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\stealth.hpp">
+      <Filter>src\features</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\camera.hpp">
+      <Filter>src\features</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\esp.hpp">
+      <Filter>src\features</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\features.hpp">
+      <Filter>src\features</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\menu.hpp">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
